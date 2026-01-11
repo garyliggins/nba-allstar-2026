@@ -187,15 +187,15 @@ function Contact() {
                 </p>
               </div>
 
-              <div className="contact-item">
-                <h4>Follow Us</h4>
-                <div style={{display: 'flex', gap: '1rem', marginTop: '1rem'}}>
-                  <a href="#" style={{color: 'var(--secondary)', fontSize: '1.5rem'}}>FB</a>
-                  <a href="#" style={{color: 'var(--secondary)', fontSize: '1.5rem'}}>IG</a>
-                  <a href="#" style={{color: 'var(--secondary)', fontSize: '1.5rem'}}>TW</a>
-                  <a href="#" style={{color: 'var(--secondary)', fontSize: '1.5rem'}}>YT</a>
-                </div>
-              </div>
+<div className="contact-item">
+  <h4>Follow Us</h4>
+  <div style={{display: 'flex', gap: '1rem', marginTop: '1rem'}}>
+    <a href="https://facebook.com/nba" style={{color: 'var(--secondary)', fontSize: '1.5rem'}} target="_blank" rel="noopener noreferrer">FB</a>
+    <a href="https://instagram.com/nba" style={{color: 'var(--secondary)', fontSize: '1.5rem'}} target="_blank" rel="noopener noreferrer">IG</a>
+    <a href="https://twitter.com/nba" style={{color: 'var(--secondary)', fontSize: '1.5rem'}} target="_blank" rel="noopener noreferrer">TW</a>
+    <a href="https://youtube.com/nba" style={{color: 'var(--secondary)', fontSize: '1.5rem'}} target="_blank" rel="noopener noreferrer">YT</a>
+  </div>
+</div>
             </div>
           </div>
         </div>

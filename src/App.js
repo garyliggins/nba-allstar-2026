@@ -69,12 +69,12 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-social">
-          <a href="#" className="social-link">FB</a>
-          <a href="#" className="social-link">IG</a>
-          <a href="#" className="social-link">TW</a>
-          <a href="#" className="social-link">YT</a>
-        </div>
+  <div className="footer-social">
+  <a href="https://facebook.com/nba" className="social-link" target="_blank" rel="noopener noreferrer">FB</a>
+  <a href="https://instagram.com/nba" className="social-link" target="_blank" rel="noopener noreferrer">IG</a>
+  <a href="https://twitter.com/nba" className="social-link" target="_blank" rel="noopener noreferrer">TW</a>
+  <a href="https://youtube.com/nba" className="social-link" target="_blank" rel="noopener noreferrer">YT</a>
+</div>
         <p className="footer-text">
           © 2026 NBA All-Star Weekend. All rights reserved.
         </p>
