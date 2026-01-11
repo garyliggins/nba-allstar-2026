@@ -1,0 +1,147 @@
+═══════════════════════════════════════════════════════════════
+  NBA ALL-STAR WEEKEND 2026 - WEBSITE SETUP INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+
+WHAT YOU NEED TO DOWNLOAD/INSTALL:
+═══════════════════════════════════════════════════════════════
+
+1. NODE.JS (Required - This is the only thing you need to download!)
+   
+   Download from: https://nodejs.org/
+   
+   - Click the big green "LTS" button (recommended for most users)
+   - Run the installer
+   - Keep clicking "Next" with default settings
+   - Restart your computer after installation
+   
+   That's it! Node.js includes npm, which installs all other dependencies automatically.
+
+
+STEP-BY-STEP SETUP GUIDE:
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Open Terminal/Command Prompt
+─────────────────────────────────────
+Windows Users:
+  - Press Windows Key + R
+  - Type: cmd
+  - Press Enter
+
+Mac Users:
+  - Press Command + Space
+  - Type: terminal
+  - Press Enter
+
+
+STEP 2: Navigate to Project Folder
+─────────────────────────────────────
+Type this command (replace the path with your actual folder location):
+
+Windows:
+  cd C:\Users\YourName\Desktop\nba-allstar-2026
+
+Mac:
+  cd /Users/YourName/Desktop/nba-allstar-2026
+
+Press Enter
+
+
+STEP 3: Install Dependencies
+─────────────────────────────────────
+Type this command:
+  npm install
+
+Press Enter
+
+Wait 2-5 minutes while it downloads everything needed.
+You'll see lots of text - this is normal!
+
+
+STEP 4: Start the Website
+─────────────────────────────────────
+Type this command:
+  npm start
+
+Press Enter
+
+The website will open automatically in your browser!
+If it doesn't, go to: http://localhost:3000
+
+
+═══════════════════════════════════════════════════════════════
+  THAT'S IT! YOUR WEBSITE IS NOW RUNNING!
+═══════════════════════════════════════════════════════════════
+
+The website will automatically refresh when you make changes to files.
+
+To STOP the website:
+  - Go to the terminal/command prompt
+  - Press: Ctrl + C (Windows) or Command + C (Mac)
+
+To START it again:
+  - Type: npm start
+  - Press Enter
+
+
+COMMON ISSUES & SOLUTIONS:
+═══════════════════════════════════════════════════════════════
+
+Problem: "npm is not recognized"
+Solution: Node.js isn't installed properly. Reinstall from nodejs.org
+
+Problem: "Port 3000 is already in use"
+Solution: Something else is using port 3000. Either:
+  - Close other applications
+  - Or type: set PORT=3001 && npm start (then go to http://localhost:3001)
+
+Problem: Website shows blank page
+Solution:
+  1. Stop the server (Ctrl+C)
+  2. Type: npm install
+  3. Type: npm start
+
+Problem: Changes not showing up
+Solution: 
+  1. Make sure you saved the file
+  2. Refresh browser (Ctrl+R or Cmd+R)
+  3. If still not working, clear cache (Ctrl+Shift+R or Cmd+Shift+R)
+
+
+WHAT FILES CAN YOU EDIT?
+═══════════════════════════════════════════════════════════════
+
+All page content is in the "src/pages/" folder:
+  - Home.js - Home page
+  - Event1.js - 3-Point Contest
+  - Event2.js - Slam Dunk Contest
+  - Event3.js - Skills Challenge
+  - Event4.js - All-Star Game
+  - FAQ.js - FAQ page
+  - Sponsorship.js - Sponsorship page
+  - Contact.js - Contact page
+
+To change colors/design, edit: src/App.css
+
+
+WHEN YOU'RE READY TO PUBLISH:
+═══════════════════════════════════════════════════════════════
+
+Type this command:
+  npm run build
+
+This creates a "build" folder with files ready to upload to any web host.
+
+
+QUICK REFERENCE:
+═══════════════════════════════════════════════════════════════
+
+Start website:        npm start
+Stop website:         Ctrl+C (or Cmd+C on Mac)
+Install packages:     npm install
+Build for web:        npm run build
+View in browser:      http://localhost:3000
+
+
+Need more help? Check README.md for detailed documentation.
+
+═══════════════════════════════════════════════════════════════
