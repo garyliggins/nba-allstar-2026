@@ -7,10 +7,10 @@ function Event1() {
       {/* Event Hero */}
       <section className="event-hero">
         <div className="hero-content">
-          <p className="hero-subtitle">Saturday, February 15, 2026</p>
-          <h1 className="hero-title">3-Point Contest</h1>
+          <p className="hero-subtitle">Friday February 13, 2026</p>
+          <h1 className="hero-title">Friday Night Event</h1>
           <p className="hero-description">
-            The ultimate test of long-range precision and composure under pressure
+            Friday night event at Academy LA
           </p>
         </div>
       </section>
@@ -25,7 +25,7 @@ function Event1() {
           <div className="event-info-grid">
             <div className="info-box">
               <div className="info-label">Date & Time</div>
-              <div className="info-value">Saturday, February 15, 2026<br/>7:00 PM ET</div>
+              <div className="info-value">Friday, February 13, 2026<br/>9:00 PM ET</div>
             </div>
 
             <div className="info-box">

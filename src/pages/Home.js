@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import image0 from '../images/image0.JPEG';
 
 function Home() {
   return (
@@ -7,11 +8,21 @@ function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <p className="hero-subtitle">February 14-16, 2026</p>
-          <h1 className="hero-title">NBA All-Star Weekend</h1>
+          <p className="hero-subtitle">February 13-15, 2026</p>
+          <h1 className="hero-title">NBA All-Star Weekend Events</h1>
           <p className="hero-description">
-            Experience the most electrifying weekend in basketball. Four unforgettable events showcasing the world's greatest players.
+            Party with SupremeTeam LA, LA Function, 92.3 The Real, Iheart Media, Headliner Market Group and more at the hottest All-Star Weekend events in Los Angeles
           </p>
+
+          {/* Featured Image */}
+          <div style={{display: 'flex', justifyContent: 'center', margin: '2rem 0'}}>
+            <img
+              src={image0}
+              alt="NBA All-Star Weekend"
+              style={{maxWidth: '400px', width: '100%', height: 'auto', borderRadius: '8px'}}
+            />
+          </div>
+
           <div className="hero-cta">
             <Link to="/event1" className="btn btn-primary">Explore Events</Link>
             <Link to="/contact" className="btn btn-secondary">Get Tickets</Link>
@@ -25,14 +36,14 @@ function Home() {
           <div className="section-header">
             <h2 className="section-title">Weekend Events</h2>
             <p className="section-subtitle">
-              Four incredible competitions featuring the NBA's elite athletes
+              Four incredible events making up an unforgettable weekend
             </p>
           </div>
 
           <div className="events-grid">
             <div className="event-card">
               <span className="event-number">01</span>
-              <h3>3-Point Contest</h3>
+              <h3>event 1</h3>
               <p>
                 The league's sharpest shooters battle it out from beyond the arc in this high-stakes shooting competition. Watch precision meet pressure as players have 60 seconds to sink as many threes as possible.
               </p>
@@ -43,7 +54,7 @@ function Home() {
 
             <div className="event-card">
               <span className="event-number">02</span>
-              <h3>Slam Dunk Contest</h3>
+              <h3>event 2</h3>
               <p>
                 Witness gravity-defying athleticism as the NBA's most explosive dunkers showcase creativity, power, and style. Each dunk is a masterpiece of aerial artistry that pushes the boundaries of what's possible.
               </p>
@@ -54,7 +65,7 @@ function Home() {
 
             <div className="event-card">
               <span className="event-number">03</span>
-              <h3>Skills Challenge</h3>
+              <h3>event 3</h3>
               <p>
                 An obstacle course testing speed, ball-handling, passing accuracy, and shooting. Players race against the clock while demonstrating their complete skill set in this fan-favorite competition.
               </p>
@@ -65,7 +76,7 @@ function Home() {
 
             <div className="event-card">
               <span className="event-number">04</span>
-              <h3>All-Star Game</h3>
+              <h3>event 4</h3>
               <p>
                 The main event. The best players from both conferences compete in an exhibition showcase filled with incredible plays, highlight-reel moments, and unmatched star power on one court.
               </p>
@@ -81,9 +92,9 @@ function Home() {
       <section className="section" style={{background: 'var(--dark-gray)'}}>
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Be Part of History</h2>
+            <h2 className="section-title">All Events Will Sell Out!</h2>
             <p className="section-subtitle">
-              Don't miss your chance to witness basketball excellence live
+              Don't miss your chance to attend the best events all weekend long
             </p>
             <div style={{marginTop: '2rem'}}>
               <Link to="/contact" className="btn btn-primary">Get Your Tickets Now</Link>

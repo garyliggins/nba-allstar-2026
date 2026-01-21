@@ -52,10 +52,10 @@ function Navigation() {
 
         <ul className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
           <li><Link to="/" className={`nav-link ${isActive('/')}`}>Home</Link></li>
-          <li><Link to="/event1" className={`nav-link ${isActive('/event1')}`}>3-Point Contest</Link></li>
-          <li><Link to="/event2" className={`nav-link ${isActive('/event2')}`}>Slam Dunk</Link></li>
-          <li><Link to="/event3" className={`nav-link ${isActive('/event3')}`}>Skills Challenge</Link></li>
-          <li><Link to="/event4" className={`nav-link ${isActive('/event4')}`}>All-Star Game</Link></li>
+          <li><Link to="/event1" className={`nav-link ${isActive('/event1')}`}>event 1</Link></li>
+          <li><Link to="/event2" className={`nav-link ${isActive('/event2')}`}>event 2</Link></li>
+          <li><Link to="/event3" className={`nav-link ${isActive('/event3')}`}>event</Link></li>
+          <li><Link to="/event4" className={`nav-link ${isActive('/event4')}`}>event 4</Link></li>
           <li><Link to="/faq" className={`nav-link ${isActive('/faq')}`}>FAQ</Link></li>
           <li><Link to="/sponsorship" className={`nav-link ${isActive('/sponsorship')}`}>Sponsorship</Link></li>
           <li><Link to="/contact" className={`nav-link ${isActive('/contact')}`}>Contact</Link></li>
